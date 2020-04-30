@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    </head>
+   <body>
+ <div id="myDIV">
+             <form id="reg_form">
+  <div class="form-group">
+      <h4> Do the Booking</h4>
+      <br><br>   
+      <label for="formGroupExampleInput2">Name</label>
+    <input name="in_words" type="text" class="form-control" id="wrd" placeholder="Name"><br><br>
+    <label for="formGroupExampleInput">Source Address   </label>
+    <input name="receipt_no" type="text" class="form-control" id="myrcptno" placeholder="Enter source">
+  </div><br><br>
+  
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Destination Address</label>
+    <input name="received_from" type="text" class="form-control" id="from" placeholder="Enter destination">
+  </div><br><br>
+                          <div class="form-group">
+    <label for="formGroupExampleInput2">Vehicle    </label>
+    <input name="course" type="text" class="form-control" id="subject" placeholder="Enter type of vehicle">
+  </div><br><br>
+                           <label for="formGroupExampleInput2">Amount</label>
+                           <input name="amount" type="text" class="form-control" id="rupees" placeholder="Enter amount you have paid"><br><br><br>
+                           
+ 
+                    
+                    <div class="form-check">
+    <input name="check" type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Terms and Conditions</label><br><br>
+  </div>
+                                <br>
+                                
+                                
+                                 <button id="but" type="submit" onclick="getInputValue()" class="btn btn-dark">DELIVER</button>
+ <a href="home.jsp" class="btn btn-dark">Back</a>
+             </form>
+                   <p id="demo"></p>
+   </div>
+       
+       
+       <script>
+                   function getInputValue(){
+            // Selecting the input element and get its value
+           // <h1>Receipt no:-</h1>
+            
+            var inputVal = document.getElementById("wrd").value;
+         // <h1>Name:-</h1>    
+        var inputVal1 = document.getElementById("myrcptno").value;
+            var inputVal2 = document.getElementById("from").value;
+            var inputVal3 = document.getElementById("subject").value;
+            var inputVal4 = document.getElementById("rupees").value;
+            
+            // Displaying the value
+           // document.getElementById('reg_form').style.display = "none" ;
+            alert("Name:- "+inputVal+"\nSource Add:- "+inputVal1+"\nDestination Add:-"+inputVal2+"\nVehicle="+inputVal3+"\nAmount-"+inputVal4);
+
+        }
+    </script>
+    </body>
+</html>
