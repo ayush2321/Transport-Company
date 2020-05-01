@@ -60,6 +60,24 @@ Front End and Back End:
 
 •	Back End: MYSQL
 
+project diagram
+<img width="576" alt="Activity Diagram(Ayush)" src="https://user-images.githubusercontent.com/64593707/80816675-8e5a1600-8bed-11ea-9877-9a26a2d11f60.png">
+
+
+WELCOME PAGE
+![ayush 1](https://user-images.githubusercontent.com/64593707/80816586-67034900-8bed-11ea-8d33-3acd5273c0da.png)
+
+Register
+
+
+![ayush2](https://user-images.githubusercontent.com/64593707/80816713-a3cf4000-8bed-11ea-9e3a-84f28f9fb773.png)
+
+Login
+![ayush3](https://user-images.githubusercontent.com/64593707/80816749-bba6c400-8bed-11ea-8be6-b65e0e160d4d.png)
+
+result
+
+![ayush4](https://user-images.githubusercontent.com/64593707/80816789-ce20fd80-8bed-11ea-8d9e-39a59d42f467.png)
 
 
 
